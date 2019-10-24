@@ -75,10 +75,10 @@
 
     <button
       tabindex="0"
-      on:click={() => dispatch('close')}
+      on:click={() => dispatch('submit')}
       aria-label="Close modal"
       bind:this={action}>
-      close modal
+      Continue
     </button>
   </div>
 </div>
